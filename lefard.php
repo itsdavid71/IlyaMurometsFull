@@ -2,7 +2,7 @@
 
 <main>
     <div class="main-block">
-        <div class="container">
+        <div class="container container-second ">
             <div class="logo"></div>
             <div class="mark-main">
                 <h5 class="mark-name-title">Продукция торговой марки <span class="title-grey">Lefard.</span></h5>
@@ -21,7 +21,7 @@
             <div class="mark-img lefand2"></div>
             <div class="mark-img lefand3"></div>
         </div>
-        <div class="container">
+        <div class="container container-second ">
             <div class="hr-line left hidden-line"></div>
 
             <div class="mark-second">
@@ -37,7 +37,7 @@
             <div class="mark-img lefand5"></div>
             <div class="mark-img lefand6"></div>
         </div>
-        <div class="container">
+        <div class="container container-second ">
             <div class="price-block">
                 <h5 class="mark-name-title">Ассортимент и цены <br><span class="title-grey">Lefard.</span></h5>
                 <p class="default-text-28 mb mt">С ассортиментом и ценами на торговую продукцию торговой марки Lefard
@@ -47,7 +47,7 @@
         </div>
         <div class="hr-line right hidden-line"></div>
         <div class="form-block background-grey">
-            <div class="container">
+            <div class="container container-second ">
                 <form action="">
                     <div class="fields">
                         <div class="flex">

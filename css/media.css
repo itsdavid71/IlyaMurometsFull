@@ -128,7 +128,8 @@
   }
   .copyright {
     font-size: 15px;
-    text-align: center;
+    text-align: left;
+    width: 200px;
   }
   .container-marks {
     overflow: hidden;
@@ -170,6 +171,15 @@
   }
   .group {
     text-align: left;
+  }
+  .main-block {
+    overflow-x: hidden;
+  }
+  .container-second {
+    padding: 0 25px;
+  }
+  .hr-line-2 {
+    display: none;
   }
 }
 

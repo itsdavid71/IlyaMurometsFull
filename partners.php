@@ -2,7 +2,7 @@
 
 <main>
     <div class="main-block">
-        <div class="container">
+        <div class="container ">
             <div class="logo"></div>
             <div class="partner-main">
                 <h5 class="partners-title mark-name-title center">ООО «Илья Муромец»</h5>
@@ -11,8 +11,9 @@
                     так и представляя нашу продукцию на специализированных выставках и отраслевых встречах.
                 </p>
             </div>
-            <div class="partners-img"></div>
-
+        </div>
+        <div class="partners-img"></div>
+        <div class="container container-second ">
             <div class="partners-text flex mt2">
                 <p class="default-text-28 display-block partners-text-field">
                     Мы стараемся использовать различные методы продвижения наших услуг посредством сайта и постоянно
@@ -37,7 +38,7 @@
                         нам возвращались снова и снова.
                     </p>
             </div>
-            <div class="hr-line center"></div>
+            <div class="hr-line center hidden-line"></div>
         </div>
         <div class="partners-img2"></div>
     </div>

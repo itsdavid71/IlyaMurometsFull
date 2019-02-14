@@ -2,7 +2,7 @@
 
 <main>
     <div class="main-block">
-        <div class="container">
+        <div class="container container-second ">
             <div class="logo"></div>
             <div class="mark-main">
                 <h5 class="mark-name-title">Ведущий производитель нашей посуды <span class="title-grey">Aurum Crystal
@@ -20,7 +20,7 @@
             <div class="mark-img aurum2"></div>
             <div class="mark-img aurum3"></div>
         </div>
-        <div class="container">
+        <div class="container container-second ">
             <div class="hr-line left hidden-line"></div>
 
             <div class="mark-second">
@@ -36,7 +36,7 @@
             <div class="mark-img aurum5"></div>
             <div class="mark-img aurum6"></div>
         </div>
-        <div class="container">
+        <div class="container container-second ">
             <div class="price-block">
                 <h5 class="mark-name-title">Ассортимент и цены <br><span class="title-grey">Aurum Crystal s.r.o.</span></h5>
                 <p class="default-text-28 mb mt">С ассортиментом и ценами на торговую продукцию торговой марки Aurum
@@ -46,7 +46,7 @@
         </div>
         <div class="hr-line right hidden-line"></div>
         <div class="form-block background-grey">
-            <div class="container">
+            <div class="container container-second ">
                 <form action="">
                     <div class="fields">
                         <div class="flex">
