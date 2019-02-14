@@ -1,0 +1,162 @@
+@media (max-width: 1067px) {
+    * {
+        // overflow-x: hidden;
+    }
+    .nav-menu-mobile {
+        display: block;
+    }
+    .mark-text-field {
+        margin-top: 0;
+        font-size: 13px;
+    }
+    .flex {
+        justify-content: center;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .title-description {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+    .title-description-span {
+        flex-grow: 1;
+        margin: 12px;
+        flex-basis: 600px;
+    }
+    .marks-img {
+        background: url('../img/файл.png') right center / contain no-repeat;
+        padding: 150px;
+        margin: 0 auto 50px auto;
+    }
+    .marks {
+        max-width: 400px;
+        padding: 100px 30px;
+        text-align: left;
+        margin: 0 auto;
+    }
+    .main-img-block {
+        overflow: hidden;
+    }
+    .main-img {
+        transform: scale(1.2);
+        width: 100px;
+        height: auto;
+
+    }
+    .second-title {
+        font-size: 20px;
+    }
+    .lefard-img, .bohemia-img, .crystal-img, .realization-img {
+        display: none;
+    }
+    .second-title {
+        margin-bottom: 40px;
+    }
+    .footer-fields {
+
+        justify-content: center;
+    }
+    .container {
+        padding: 0px 70px;
+    }
+    .mark-title {
+        font-size: 15px;
+    }
+    .second-title-text {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .marks-list {
+        font-size: 13px;
+    }
+    .realization-title {
+        font-size: 20px;
+    }
+    .grey-title {
+        font-size: 15px;
+    }
+    .footer-field-img {
+        margin-bottom: 20px;
+    }
+    .footer-nav a {
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .footer-contacts {
+        flex-flow: column wrap;
+        margin-top: 50px;
+    }
+    .footer-contacts-phone {
+        flex-wrap: wrap;
+        justify-content: center;
+        p {
+                text-align: center;
+                flex-basis: 1000px;
+        }
+    }
+    .footer-contacts-phone-block {
+        margin: 20px;
+        text-align: center;
+        font-size: 14px;
+    }
+    .footer-contacts-address {
+        text-align: center;
+    }
+    .copyright {
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .container-marks {
+        overflow: hidden;
+    }
+
+    .mark-name-title {
+        font-size: 16px;
+    }
+    .mark-img {
+        padding: 100px;
+    }
+    .lefand2, .lefand3, .lefand4, .lefand5, .lefand6, .lefand7, .bohemia2, .bohemia3, .bohemia4, .bohemia5, .bohemia6, .bohemia7, .aurum2, .aurum3, .aurum4, .aurum5, .aurum6, .aurum7  {
+        display: none;
+    }
+    .hidden-line {
+        display: none;
+    }
+    .mark-img {
+        margin: 0;
+    }
+    .mark-second {
+        margin: 30px 0;
+    }
+    .form-field {
+        max-width: 300px;
+    }
+    .message-input {
+        width: 100%;
+    }
+    .fields .flex {
+        justify-content: space-evenly;
+    }
+    label {
+        font-size: 14px;
+    }
+    form {
+        text-align: center;
+    }
+    .group {
+        text-align: left;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    .nav-menu-mobile-item {
+        padding: 3px !important;
+    }
+}
