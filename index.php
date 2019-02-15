@@ -30,7 +30,7 @@
             </p>
         </div>
     </div>
-    <div class="hr-line right"></div>
+    <div class="hr-line center"></div>
     <div class="background-grey">
         <div class="container container-marks ">
             <div class="marks">
@@ -91,7 +91,7 @@
                 <h3 class="mark-title center">Стекло. Хрусталь.</h3>
             </div>
             <div class="mark-content flex">
-                <div class="mark-text-field default-text">
+                <div class="mark-text-field default-text ml160">
                     <div class="bohemia-text">
                         Торговая марка, продукцию которой мы готовы предложить - Crystal BOHEMIA a. s. – чешская
                         фабрика, которая специализируется на производстве изделий из стекла и хрусталя. Марка известна

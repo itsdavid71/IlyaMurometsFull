@@ -3,7 +3,7 @@
 <main>
     <div class="main-block">
         <div class="container container-second ">
-            <div class="logo"></div>
+            <!-- <div class="logo"></div> -->
             <div class="mark-main">
                 <h5 class="mark-name-title">Продукция торговой марки <span class="title-grey">Lefard.</span></h5>
                 <p class="default-text-28 mark-description">
@@ -47,7 +47,7 @@
         </div>
         <div class="hr-line right hidden-line"></div>
         <div class="form-block background-grey">
-            <div class="container container-second ">
+            <div class="container container-second">
                 <form action="">
                     <div class="fields">
                         <div class="flex">

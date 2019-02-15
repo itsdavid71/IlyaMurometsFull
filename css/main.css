@@ -45,6 +45,11 @@
   margin-right: auto;
 }
 
+.hide--block {
+  display: none;
+  position: absolute;
+}
+
 .nav-menu {
   height: 82px;
   background-color: #626262;
@@ -60,7 +65,63 @@
   font-size: 15px;
 }
 
-.nav-menu a {
+.nav-menu .nav-menu-list-field {
+  background: #a3a3a3;
+  display: none;
+  width: 300px;
+  height: 230px;
+  position: absolute;
+  right: 0;
+  top: 82px;
+  left: -100px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nav-menu .nav-menu-list-field a {
+  padding: 0 20px;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: left;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-menu .nav-menu-list-field a:nth-child(1):before, .nav-menu .nav-menu-list-field a:nth-child(2):before {
+  content: "";
+  position: absolute;
+  width: 1000px;
+  height: 2px;
+  background: #282828;
+  bottom: 0;
+  left: -50px;
+}
+
+.nav-menu .nav-menu-list-field a:nth-child(1) {
+  color: #1b1b1b;
+}
+
+.nav-menu .nav-menu-list-field a:nth-child(2) {
+  color: #1b1b1b;
+}
+
+.nav-menu .nav-menu-list-field a:nth-child(3) {
+  color: #fff;
+}
+
+.nav-menu span {
   text-decoration: none;
   color: white;
   font-size: 14px;
@@ -72,13 +133,28 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0 50px;
+  cursor: pointer;
 }
 
-.nav-menu a:hover {
+.nav-menu a, .nav-menu span {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 50px;
+}
+
+.nav-menu a:hover, .nav-menu span:hover {
   color: black;
 }
 
-.nav-menu a:before {
+.nav-menu a:before, .nav-menu span:before {
   content: "";
   position: absolute;
   width: 115%;
@@ -90,7 +166,7 @@
   transition: .2s;
 }
 
-.nav-menu a:hover:before {
+.nav-menu a:hover:before, .nav-menu span:hover:before {
   content: "";
   position: absolute;
   height: 6px;
@@ -212,16 +288,20 @@
 
 .crystal-img {
   background: url("../img/ваза.png") left center/contain no-repeat;
-  padding: 280px;
-  display: inline-block;
+  padding: 250px;
   overflow: hidden;
 }
 
 .bohemia-img {
   background: url("../img/бокал.png") left center/contain no-repeat;
-  padding: 200px;
-  display: inline-block;
+  padding: 190px;
+  position: absolute;
   overflow: hidden;
+  right: 50px;
+}
+
+.ml160 {
+  margin-left: 160px;
 }
 
 .realization-img {
@@ -334,7 +414,7 @@
   text-decoration: none;
   color: black;
   text-transform: uppercase;
-  margin: 15px;
+  margin: 20px;
   font-size: 12px;
 }
 
@@ -379,6 +459,7 @@
 
 .copyright {
   margin-top: 50px;
+  font-size: 13px;
   text-align: right;
 }
 
@@ -481,6 +562,7 @@
 
 .aurum7 {
   background: url("../img/aurum7.png") center center/contain no-repeat;
+  margin-bottom: 0;
 }
 
 .bohemia1 {
@@ -534,6 +616,14 @@
 
 .mt2 {
   margin-top: 80px;
+}
+
+.mt3 {
+  margin-top: 150px;
+}
+
+.mb2 {
+  margin-bottom: 80px;
 }
 
 .form-block {
@@ -598,7 +688,7 @@ label {
 
 .partners-img {
   background: url("../img/partners.png") center center/contain no-repeat;
-  padding: 300px;
+  padding: 360px;
 }
 
 .partners-img2 {

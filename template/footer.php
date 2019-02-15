@@ -40,11 +40,11 @@
                         </div>
                     </div>
                     <div class="footer-nav center">
-                        <a href="index.php">Главная</a>
-                        <a href="index.php#company">О нас</a>
-                        <a href="index.php#services">Услуги</a>
-                        <a href="index.php#partners">Партнерам</a>
-                        <a href="index.php#contacts">Контакты</a>
+                        <a href="#">Главная</a>
+                        <a href="#company">О нас</a>
+                        <a href="#services">Услуги</a>
+                        <a href="#partners">Партнерам</a>
+                        <a href="#contacts">Контакты</a>
                     </div>
                     <div class="footer-contacts" id="contacts">
                         <div class="footer-contacts-phone">

@@ -123,11 +123,17 @@
     .mark-img {
         padding: 100px;
     }
-    .lefand2, .lefand3, .lefand4, .lefand5, .lefand6, .lefand7, .bohemia2, .bohemia3, .bohemia4, .bohemia5, .bohemia6, .bohemia7, .aurum2, .aurum3, .aurum4, .aurum5, .aurum6, .aurum7  {
+    .lefand2, .lefand3, .lefand4, .lefand5, .lefand6, .lefand7, .bohemia1, .bohemia3, .bohemia4, .bohemia5, .bohemia6, .bohemia7, .aurum1, .aurum2, .aurum4, .aurum5, .aurum6, .aurum7  {
         display: none;
     }
     .hidden-line {
         display: none;
+    }
+    .block-hidden {
+        display: none;
+    }
+    .footer-nav a {
+        margin: 10px;
     }
     .mark-img {
         margin: 0;
@@ -161,6 +167,13 @@
     }
     .hr-line-2 {
         display: none;
+    }
+    .partners-text {
+        margin-top: 0 !important;
+    }
+
+    .default-text-28 {
+        line-height: 45px;
     }
     
 }

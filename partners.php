@@ -3,18 +3,19 @@
 <main>
     <div class="main-block">
         <div class="container ">
-            <div class="logo"></div>
+            <!-- <div class="logo"></div> -->
             <div class="partner-main">
-                <h5 class="partners-title mark-name-title center">ООО «Илья Муромец»</h5>
-                <p class="default-text-28 center mt mb">
+                <h5 class="partners-title mark-name-title center mt2">ООО «Илья Муромец»</h5>
+                <p class="default-text-28 center mt mb2">
                     Мы реализуем товар как посредством сайта и обращения покупателей через формы обратной связи, <br>
                     так и представляя нашу продукцию на специализированных выставках и отраслевых встречах.
                 </p>
             </div>
         </div>
         <div class="partners-img"></div>
-        <div class="container container-second ">
-            <div class="partners-text flex mt2">
+
+        <div class="container container-second">
+            <div class="partners-text flex mt3 mb2">
                 <p class="default-text-28 display-block partners-text-field">
                     Мы стараемся использовать различные методы продвижения наших услуг посредством сайта и постоянно
                     ведем работу по его улучшению. <br>

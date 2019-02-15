@@ -3,7 +3,7 @@
 <main>
     <div class="main-block">
         <div class="container container-second ">
-            <div class="logo"></div>
+            <!-- <div class="logo"></div> -->
             <div class="mark-main">
                 <h5 class="mark-name-title">Ведущий производитель нашей посуды <span class="title-grey">Aurum Crystal
                         s.r.o.</span></h5>

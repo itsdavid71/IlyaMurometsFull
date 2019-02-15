@@ -14,27 +14,36 @@
 
 <body>
     <div class="nav-menu-mobile">
-        <a href="index.php" class="nav-menu-mobile-item">Главная</a>
-        <a href="#" class="nav-menu-mobile-item about-mobile">О нас</a>
+        <a href="body" class="nav-menu-mobile-item">Главная</a>
+        <a href="#company" class="nav-menu-mobile-item about-mobile">О нас</a>
         <a href="#" class="nav-menu-mobile-item services-mobile">Услуги</a>
-        <a href="#" class="nav-menu-mobile-item partners-mobile">Партнерам</a>
-        <a href="#" class="nav-menu-mobile-item contacts-mobile">Контакты</a>
+        <a href="#partners" class="nav-menu-mobile-item partners-mobile">Партнерам</a>
+        <a href="#contacts" class="nav-menu-mobile-item contacts-mobile">Контакты</a>
         <div class="nav-menu-mobile-list">
             <div class="nav-menu-mobile-list-field">
-                <a href="index.php#lefard" class="lefard-mobile">Lefard</a>
-                <a href="index.php#crystal" class="crystal-mobile">Aurum – Crystal</a>
-                <a href="index.php#bohemia" class="bohemia-mobile">Italiana Crystal BOHEMIA</a>
+                <a href="#lefard" class="list-item">Lefard</a>
+                <a href="#crystal" class="list-item">Aurum – Crystal</a>
+                <a href="#bohemia" class="list-item">Italiana Crystal BOHEMIA</a>
             </div>
         </div>
     </div>
     <div class="container">
         <header>
             <div class="nav-menu center">
-                <a href="index.php">Главная</a>
-                <a href="index.php#company">О нас</a>
-                <a href="index.php#services">Услуги</a>
-                <a href="index.php#partners">Партнерам</a>
-                <a href="index.php#contacts">Контакты</a>
+                <a href="body">Главная</a>
+                <a href="#company">О нас</a>
+                <span class="services_btn">Услуги</span>
+                <a href="#partners">Партнерам</a>
+                <a href="#contacts">Контакты</a>
+                <div class="hide--block">
+                    <div class="nav-menu-list">
+                        <div class="nav-menu-list-field">
+                            <a href="#lefard" class="list-item">Lefard</a>
+                            <a href="#crystal" class="list-item">Aurum – Crystal</a>
+                            <a href="#bohemia" class="list-item">Crystal BOHEMIA</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </header>
     </div>

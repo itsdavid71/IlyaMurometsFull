@@ -3,7 +3,7 @@
 <main>
     <div class="main-block">
         <div class="container container-second ">
-            <div class="logo"></div>
+            <!-- <div class="logo"></div> -->
             <div class="mark-main">
                 <h5 class="mark-name-title">Торговая марка, <span class="title-grey">Crystal BOHEMIA a. s. </span><br>Чешская
                     фабрика </h5>
@@ -26,7 +26,7 @@
         <div class="container container-second ">
             <div class="hr-line left hidden-line"></div>
 
-            <div class="mark-third">
+            <div class="mark-third block-hidden">
                 <p class="default-text-28">
                     Неповторимые дизайнерские изделия – украшение любого дома или офиса. Современные технологии и
                     методики обработки хрусталя, которые применяются в «Кристал Богемия», позволяют предавать каждому
