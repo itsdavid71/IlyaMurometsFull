@@ -4,5 +4,6 @@
 <?php the_content();?>
 <input form="contact-form" type="hidden" name="brand" value="<?=the_title();?>">
 <?php  endif; ?>
+<input form="contact-form" type="hidden" name="action" value="contact">
 <form action="<?=esc_url(admin_url('admin-post.php'));?>" method="post" id="contact-form"></form>
 <?php get_footer(); ?>

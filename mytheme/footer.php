@@ -40,11 +40,11 @@
                         </div>
                     </div>
                     <div class="footer-nav center">
-                        <a href="#">Главная</a>
-                        <a href="#company">О нас</a>
+                        <a href="<?=(is_front_page() ? "#body" : home_url());?>">Главная</a>
+                        <a href="<?=(is_front_page() ? "#company" : home_url().'/#company');?>">О нас</a>
                         <a href="#services">Услуги</a>
-                        <a href="#partners">Партнерам</a>
-                        <a href="#contacts">Контакты</a>
+                        <a href="<?=(is_front_page() ? "#partners" : home_url().'/#partners');?>">Партнерам</a>
+                        <a href="<?=(is_front_page() ? "#contacts" : home_url().'/#contacts');?>">Контакты</a>
                     </div>
                     <div class="footer-contacts" id="contacts">
                         <div class="footer-contacts-phone">

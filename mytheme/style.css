@@ -20,6 +20,7 @@ Text Domain: muromets
   font-family: 'Roboto', sans-serif;
 }
 
+
 .container {
   max-width: 1078px;
   margin: 0 auto;
@@ -84,11 +85,11 @@ Text Domain: muromets
   display: none;
   width: 300px;
   height: 230px;
-  position: absolute;
   right: 0;
-  top: 82px;
-  left: -100px;
+  left: -70px;
+  z-index: 100000000000 ;
   margin: 0 auto;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -123,15 +124,10 @@ Text Domain: muromets
   left: -50px;
 }
 
-.nav-menu .nav-menu-list-field a:nth-child(1) {
+.nav-menu .nav-menu-list-field a {
   color: #1b1b1b;
 }
-
-.nav-menu .nav-menu-list-field a:nth-child(2) {
-  color: #1b1b1b;
-}
-
-.nav-menu .nav-menu-list-field a:nth-child(3) {
+.nav-menu .nav-menu-list-field a:hover {
   color: #fff;
 }
 
@@ -163,12 +159,14 @@ Text Domain: muromets
           box-sizing: border-box;
   padding: 0 50px;
 }
-
+.services_btn {
+  position: relative;
+}
 .nav-menu a:hover, .nav-menu span:hover {
   color: black;
 }
 
-.nav-menu a:before, .nav-menu span:before {
+.nav-menu a:before {
   content: "";
   position: absolute;
   width: 115%;
@@ -180,7 +178,7 @@ Text Domain: muromets
   transition: .2s;
 }
 
-.nav-menu a:hover:before, .nav-menu span:hover:before {
+.nav-menu a:hover:before {
   content: "";
   position: absolute;
   height: 6px;
@@ -678,7 +676,8 @@ textarea {
 }
 
 .form-input:focus ~ label,
-.form-input:valid ~ label {
+.form-input:valid ~ label,
+.email-input:focus ~ label {
   top: -14px;
   font-size: 12px;
 }
@@ -753,7 +752,7 @@ label {
 
 .nav-menu-mobile .nav-menu-mobile-list-field {
   background: #bbbbbb;
-  width: 300px;
+  width: 250px;
   position: absolute;
   right: 0;
   display: -webkit-box;
@@ -789,15 +788,11 @@ label {
   left: -50px;
 }
 
-.nav-menu-mobile .nav-menu-mobile-list-field a:nth-child(1) {
+.nav-menu-mobile .nav-menu-mobile-list-field a {
   color: #444444;
 }
 
-.nav-menu-mobile .nav-menu-mobile-list-field a:nth-child(2) {
-  color: #727272;
-}
-
-.nav-menu-mobile .nav-menu-mobile-list-field a:nth-child(3) {
+.nav-menu-mobile .nav-menu-mobile-list-field a:hover {
   color: #fff;
 }
 
@@ -1019,6 +1014,10 @@ label {
   @media (max-width: 400px) {
     .nav-menu-mobile-item {
       padding: 3px !important;
+      font-size: 10px;
+    }
+    .nav-menu-mobile {
+      padding: 4px !important;
     }
   }
   /*# sourceMappingURL=media.css.map */

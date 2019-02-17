@@ -9,30 +9,22 @@ $(document).ready(function() {
         $('.hide--block').fadeOut(200);
     });
 
-    $(".nav-menu").on("click","a", function (event) {
-		event.preventDefault();
-		var id  = $(this).attr('href'),
-			top = $(id).offset().top;
-        $('body,html').animate({
-            scrollTop: top
-        }, 1000);
+    $('a[href^="#"]').click(function(e){ 
+        var _href = $(this).attr("href"); 
+        $("html, body").stop().animate({scrollTop: $(_href).offset().top+"px"}, 1500); 
+        
+        e.preventDefault(); 
     });
-    $(".footer-nav").on("click","a", function (event) {
-		event.preventDefault();
-		var id  = $(this).attr('href'),
-			top = $(id).offset().top;
-        $('body,html').animate({
-            scrollTop: top
-        }, 1000);
-    });
-    $(".nav-menu-mobile").on("click","a", function (event) {
-		event.preventDefault();
-		var id  = $(this).attr('href'),
-			top = $(id).offset().top;
-        $('body,html').animate({
-            scrollTop: top
-        }, 1000);
-    });
+    
+    $(".services_btn").hover(
+        function () {
+           $('.hide--block').slideDown(0);
+        }, 
+        function () {
+           $('.hide--block').slideUp(0);
+        }
+      );
+      
 
 
 });

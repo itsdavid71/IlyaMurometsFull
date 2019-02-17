@@ -131,7 +131,7 @@ class_exists('Kama_Post_Meta_Box') && new Kama_Post_Meta_Box(
 	array(
 		'id'        => 'my1',
 		'title'     => 'Информация об обращении',
-		'post_type' => 'order',
+		'post_type' => 'orders',
 		'fields'    => array(
 			'name'    => array('type'=>'text', 'title'=>'Имя. Компания'),
 			'message' => array('type'=>'text', 'title'=>'Сообщение \ контактный телефон'),

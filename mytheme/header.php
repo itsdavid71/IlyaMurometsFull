@@ -12,38 +12,43 @@
 
 </head>
 
-<body>
+<body>   
     <div class="nav-menu-mobile">
-        <a href="body" class="nav-menu-mobile-item">Главная</a>
-        <a href="#company" class="nav-menu-mobile-item about-mobile">О нас</a>
-        <a href="#" class="nav-menu-mobile-item services-mobile">Услуги</a>
-        <a href="#partners" class="nav-menu-mobile-item partners-mobile">Партнерам</a>
-        <a href="#contacts" class="nav-menu-mobile-item contacts-mobile">Контакты</a>
+        <a href="<?=(is_front_page() ? "#body" : home_url());?>" class="nav-menu-mobile-item">Главная</a>
+        <a href="<?=(is_front_page() ? "#company" : home_url().'/#company');?>" class="nav-menu-mobile-item about-mobile">О нас</a>
+        <a href="#" class="nav-menu-mobile-item services-mobile">Услуги
+        
+        </a>
+        
+        <a href="<?=(is_front_page() ? "#partners" : home_url().'/#partners');?>" class="nav-menu-mobile-item partners-mobile">Партнерам</a>
+        <a href="<?=(is_front_page() ? "#contacts" : home_url().'/#contacts');?>" class="nav-menu-mobile-item contacts-mobile">Контакты</a>
         <div class="nav-menu-mobile-list">
             <div class="nav-menu-mobile-list-field">
-                <a href="#lefard" class="list-item">Lefard</a>
-                <a href="#crystal" class="list-item">Aurum – Crystal</a>
-                <a href="#bohemia" class="list-item">Italiana Crystal BOHEMIA</a>
+                <a href="lefard" class="list-item">Lefard</a>
+                <a href="aurumcrystal" class="list-item">Aurum – Crystal</a>
+                <a href="bohemia" class="list-item">Italiana Crystal BOHEMIA</a>
             </div>
         </div>
     </div>
     <div class="container">
         <header>
             <div class="nav-menu center">
-                <a href="body">Главная</a>
-                <a href="#company">О нас</a>
-                <span class="services_btn">Услуги</span>
-                <a href="#partners">Партнерам</a>
-                <a href="#contacts">Контакты</a>
-                <div class="hide--block">
-                    <div class="nav-menu-list">
-                        <div class="nav-menu-list-field">
-                            <a href="#lefard" class="list-item">Lefard</a>
-                            <a href="#crystal" class="list-item">Aurum – Crystal</a>
-                            <a href="#bohemia" class="list-item">Crystal BOHEMIA</a>
+                <a href="<?=(is_front_page() ? "#body" : home_url());?>">Главная</a>
+                <a href="<?=(is_front_page() ? "#company" : home_url().'/#company');?>">О нас</a>
+                <span class="services_btn">Услуги
+                    <div class="hide--block">
+                        <div class="nav-menu-list">
+                            <div class="nav-menu-list-field">
+                                <a href="lefard" class="list-item">Lefard</a>
+                                <a href="aurumcrystal" class="list-item">Aurum – Crystal</a>
+                                <a href="bohemia" class="list-item">Crystal BOHEMIA</a>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </span>
+                <a href="<?=(is_front_page() ? "#partners" : home_url().'/#partners');?>">Партнерам</a>
+                <a href="<?=(is_front_page() ? "#contacts" : home_url().'/#contacts');?>">Контакты</a>
+                
             </div>
         </header>
 
