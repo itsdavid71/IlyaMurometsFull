@@ -1020,4 +1020,17 @@ label {
       padding: 4px !important;
     }
   }
+  @media (max-width: 450px) {
+    .main-img {
+      /* -webkit-transform: scale(1.2); */
+      /* transform: scale(1.2); */
+      /* width: 100px; */
+      height: auto;
+      position: relative;
+      right: 50px;
+      margin: 0;
+      padding: 200px;
+    }
+  }
+  
   /*# sourceMappingURL=media.css.map */
